@@ -2,52 +2,94 @@
     font-family: SuperNaive;
     src: url(fonts/super-naive.ttf);
 }
+@font-face {
+    font-family: Comfortaa;
+    src: url(fonts/comfortaa-regular.ttf);
+}
+@font-face {
+    font-family: Comfortaa-Bold;
+    src: url(fonts/comfortaa-bold.ttf);
+}
+
+@keyframes rotate {
+    0% {
+		transform: rotate(0deg);
+    }
+    50% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}	
 
 body {
-	background-color: #2b0e44;
-	font-family: SuperNaive;
+	background-color: #150424;
+	font-family: Comfortaa;
     color: white;
 	font-size: 30px;
 }
 
+.me-arrow {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	animation: rotate 1s step-end infinite;
+}
+
+.main-window {
+	outline-style: solid;
+	outline-color: #e3d2f1;
+	outline-width: 4px;
+	background-color: #351352;
+	border: none;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 4px;
+}
+
 .twitter-button {
-			background-color: #438bd6;
-			border: none;
-			color: white;
-			padding: 10px 20px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
-			cursor: pointer;
-			border-radius: 4px;
-		}
+	background-color: #438bd6;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Comfortaa-Bold;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
 
 .kofi-button {
-			background-color: #4CAF50;
-			border: none;
-			color: white;
-			padding: 10px 20px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
-			cursor: pointer;
-			border-radius: 4px;
-		}
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Comfortaa-Bold;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
 
 .github-button {
-			background-color: #4d464d;
-			border: none;
-			color: white;
-			padding: 10px 20px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
-			cursor: pointer;
-			border-radius: 4px;
-		}
+	background-color: #4d464d;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Comfortaa-Bold;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
