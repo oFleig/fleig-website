@@ -30,10 +30,19 @@ body {
 	font-size: 30px;
 }
 
+.title {
+	max-height: 250px;
+	max-width: 250px;
+}
+
 .me-arrow {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	animation: rotate 1s step-end infinite;
+}
+
+.me {
+	max-height: 350px;
 }
 
 .main-window {
