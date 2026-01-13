@@ -1,0 +1,10 @@
+@font-face {
+    font-family: SuperNaive;
+    src: url(fonts/super-naive.ttf);
+}
+
+body {
+	font-family: SuperNaive;
+    color: black;
+	font-size: 40px;
+}
